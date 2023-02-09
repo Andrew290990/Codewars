@@ -6,7 +6,7 @@
 
 
     function reverseWords(str) {
-        let a = str.split(" ").map(word => word.split("").reverse().join(""));
+        let a = str.split(" ").map(el => el.split("").reverse().join(""));
         return a.join(" ");
       }
 
